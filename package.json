@@ -2,7 +2,7 @@
   "name": "typeahead",
   "version": "1.0.50",
   "scripts": {
-    "start": "bun run scripts/seed.ts && bun run src/index.ts",
+    "start": "bun run src/index.ts",
     "dev": "bun run --watch src/index.ts",
     "test": "bun test"
   },
