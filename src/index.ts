@@ -2,8 +2,9 @@ import { app } from "./server";
 
 app.get("/", () => Bun.file("public/index.html"));
 
-app.listen(3000);
+const port = parseInt(process.env.PORT ?? "3000");
+app.listen(port);
 
 console.log(
-  `🦊 Elysia is running at http://${app.server?.hostname || "localhost"}:${app.server?.port || 3000}`
+  `🚀 AuraType running at http://${app.server?.hostname || "localhost"}:${app.server?.port || port}`
 );
