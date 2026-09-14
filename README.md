@@ -2,7 +2,7 @@
 
 > Sub-millisecond search autocomplete engine built from scratch using a **Trie + Consistent Hashing + Write-Ahead Log** architecture on the Bun runtime.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Railway-7B2D8B?style=for-the-badge&logo=railway)](https://YOUR-RAILWAY-URL.up.railway.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Railway-7B2D8B?style=for-the-badge&logo=railway)](https://typeahead-production.up.railway.app)
 [![CI](https://github.com/Suhassk205/Typeahead/actions/workflows/ci.yml/badge.svg)](https://github.com/Suhassk205/Typeahead/actions)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![Bun](https://img.shields.io/badge/Runtime-Bun-FBF0DF?style=flat-square&logo=bun&logoColor=black)](https://bun.sh)
@@ -167,3 +167,9 @@ bun test
 - **Cache Miss (Trie Traversal):** 15–20ms
 - **Cache Hit Rate (sustained load):** > 90% for popular prefixes
 - **DB Write Reduction:** > 99% under high-concurrency write scenarios
+
+---
+
+## 📸 System Overview (Dev Cockpit & Consistent Hashing Ring)
+
+![System Screenshot](docs/screenshot.png)
